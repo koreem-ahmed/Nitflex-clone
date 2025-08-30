@@ -1,0 +1,25 @@
+.player{
+    width: 100vw;
+    height: 100vh;
+}
+.back-img{
+    display: block;
+    position: relative;
+    width: 70px;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+iframe{
+    display: block;
+    position: relative;
+    width: 85%;
+    height: 80vh;
+    top: -25px;
+    left: 10%;
+    border-radius: 20px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
