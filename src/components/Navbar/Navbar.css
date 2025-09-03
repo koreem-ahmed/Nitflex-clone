@@ -37,7 +37,7 @@ ul{
 }
 .dropdown{
     position: absolute;
-    top: 40px;
+    top: 48px;
     background-color: rgba(32, 32, 32, 0.55);
     padding: 15px;
     border-radius: 7px;
@@ -57,4 +57,88 @@ ul{
 }
 .nav-d{
     background-color: #141414;
+}
+.links-nav{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s linear all;
+    border-bottom: 2px transparent solid;
+}
+.links-nav:hover{
+    color: red;
+    border-bottom-color: red;
+}
+.search-box{
+    background: transparent;
+    border: 3px white solid;
+    border-radius: 20px;
+    padding: 2px 10px;
+    caret-color: white;
+    color: white;
+    outline: none;
+    display: none;
+}
+.block{
+    display: block;
+}
+.tri-noti.block {
+  display: block; /* show only when .block is toggled */
+}
+.noti.block {
+  display: block; /* show only when .block is toggled */
+}
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.bgc-se{
+    background-color:   #141414;
+}
+.noti{
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 14px;
+    background-color: #141414;
+    position: absolute;
+    padding: 15px;
+    top: 40px;
+    border-radius: 15px;
+    display: none;
+}
+.noti-big{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 10px;
+    width: 220px;
+    top: 20px;
+}
+.tri-noti{
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;  /* left side invisible */
+    border-right: 15px solid transparent; /* right side invisible */
+    border-bottom: 15px solid #141414; 
+    position: absolute;
+    top: 30px;
+    left: 106.5px;
+    display: none;
+}
+.flexyy{
+    display: block;
+}
+.bell{
+    cursor: pointer;
+}
+.light{
+    background-color: #f4f4f4;
+    color: #141414;
+}
+.lights{
+    border-bottom-color: #f4f4f4;
 }

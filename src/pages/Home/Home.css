@@ -15,6 +15,7 @@
     -webkit-mask-image: linear-gradient(to right, transparent, black 70%);
     position: absolute;
     top: 0;
+    left: 15px;
 }
 .img-title{
     position: relative;
@@ -88,4 +89,7 @@
 .more-cards{
     margin-top: 300px;
     padding-left: 65px;
+}
+.Link{
+    text-decoration: none;
 }
